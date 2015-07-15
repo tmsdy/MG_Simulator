@@ -882,7 +882,7 @@ public class Form1 : System.Windows.Forms.Form
 
     private void button4_Click(object sender, EventArgs e)
     {
-
+         
         /*如果socket断开 则重连*/
         try
         {
