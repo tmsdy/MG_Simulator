@@ -192,7 +192,7 @@ public class Form1 : System.Windows.Forms.Form
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button3.Font = new System.Drawing.Font("ËÎÌו", 14F);
             this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(459, 424);
+            this.button3.Location = new System.Drawing.Point(460, 424);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 65);
             this.button3.TabIndex = 5;
