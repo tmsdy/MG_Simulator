@@ -807,7 +807,11 @@ public class Form1 : System.Windows.Forms.Form
             Application.Exit();
         }
         catch (Exception ee)
-        { statusBar1.Text = ("断开连接 " + ee.Message + "\r\n"); }
+        { 
+            statusBar1.Text = ("断开连接 " + ee.Message + "\r\n");
+            this.Close();
+            Application.Exit();        
+        }
     }
 
     private void textBox3_TextChanged(object sender, EventArgs e)
@@ -1080,7 +1084,6 @@ public class Form1 : System.Windows.Forms.Form
             button2.Visible = true;
             textBox3.Visible = true;
             this.FindForm().Size = new Size(1300, 550);
-            checkBox6.Checked = true;
         }
         else
         {
