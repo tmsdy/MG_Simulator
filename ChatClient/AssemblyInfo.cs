@@ -6,11 +6,11 @@ using System.Runtime.CompilerServices;
 //属性集控制的。更改这些属性值可修改与程序集
 //关联的信息。
 //
-[assembly: AssemblyTitle("")]
+[assembly: AssemblyTitle("麦谷模拟登录")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
+[assembly: AssemblyProduct("麦谷模拟登录")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]		
